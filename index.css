@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    margin-bottom: 30px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.hover-section:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#contactForm {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contactForm .form-group {
+    margin-bottom: 15px;
+}
+
+#contactForm .btn {
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    #contactForm .btn {
+        width: auto;
+    }
+}

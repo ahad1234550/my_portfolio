@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="mailto:ahad1234550@gmail.com">
+            <i class="fas fa-envelope"></i> ahad1234550@gmail.com
+        </a>
+        <a class="navbar-brand" href="tel:03340412444">
+            <i class="fas fa-phone"></i> 03340412444
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#header">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="header" class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <img src="profile.jpg" alt="Profile Picture" class="rounded-circle mb-3" width="150">
+            <h1 class="display-4">Ahad Danish</h1>
+            <h2 class="lead">Web Developer</h2>
+            <p>Creating modern and responsive web designs</p>
+        </div>
+    </header>
+
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Education</h2>
+            <ul class="hover-section">
+                <li><strong>Matric</strong> American Lycetuff</li>
+                <li><strong>Intermediate</strong> Forman Christian College</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h2 class="mb-4">Skills</h2>
+            <div class="row hover-section">
+                <div class="col-md-4">
+                    <ul>
+                        <strong>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>CodeIgniter</li>
+                            <li>Bootstrap</li>
+                            <li>React.js</li>
+                        </strong>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Experience</h2>
+            <ul class="hover-section">
+                <li><strong>Web Developer Intern</strong> at Adsells Company (06/22-12/22)</li>
+                <li><strong>Associate Software Engineer</strong> at ToG Solutions (04/2024-Present)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="mb-4">Projects</h2>
+            <ul class="hover-section">
+                <li><strong>Project 1:</strong> A responsive calculator website</li>
+                <li><strong>Project 2:</strong> Car Rental System</li>
+                <li><strong>Project 3:</strong> School Management System</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Contact Me</h2>
+            <form id="contactForm" class="p-4 p-md-5 border rounded shadow-sm bg-light">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.polyfills.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
